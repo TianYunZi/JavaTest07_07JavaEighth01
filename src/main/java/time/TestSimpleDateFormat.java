@@ -138,7 +138,7 @@ public class TestSimpleDateFormat {
         System.out.println(localDateTime);
     }
 
-    //6.ZonedDate、ZonedTime、ZonedDateTime ： 带时区的时间或日期
+    //6.ZonedDate、ZonedTime、ZonedDateTime ： 带时区的时间或日期//
     @Test
     public void test06() {
         LocalDateTime localDateTime = LocalDateTime.now(ZoneId.of("Asia/Shanghai"));
